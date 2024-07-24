@@ -40,7 +40,7 @@ const Body = () => {
   // };
 
 
-
+  axios.defaults.withCredentials = true;
 
   const fetchData = async () => {
     try {
